@@ -136,23 +136,7 @@ static inline bool is_navi21(sift_chipid_t id)
 /// @returns a bool (true if ID matches, false otherwise)
 static inline bool is_navi31(sift_chipid_t id)
 {
-  switch (id) {
-    case SIFT_CHIPID_NAVI21_V620:
-      return true;
-    case SIFT_CHIPID_NAVI21_W6900X:
-      return true;
-    case SIFT_CHIPID_NAVI21_W6800:
-      return true;
-    case SIFT_CHIPID_NAVI21_6950XT:
-      return true;
-    case SIFT_CHIPID_NAVI21_W6800X:
-      return true;
-    case SIFT_CHIPID_NAVI21_V620MX:
-      return true;
-    case SIFT_CHIPID_NAVI21_6900XT:
-      return true;
-    case SIFT_CHIPID_NAVI21_6800XT:
-      return true;
+  switch (id) { 
     case SIFT_CHIPID_NAVI31_W7900:
       return true;
     case SIFT_CHIPID_NAVI31_7900XT:
